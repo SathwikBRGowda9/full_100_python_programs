@@ -1,1 +1,4 @@
-# Program 2
+# 2. Add Two Numbers
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+print("Sum:", a + b)

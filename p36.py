@@ -1,1 +1,8 @@
-# Program 36
+# 36. Simple Login System (Hardcoded Username/Password)
+username = input("Enter username: ")
+password = input("Enter password: ")
+
+if username == "admin" and password == "1234":
+    print("Login successful")
+else:
+    print("Invalid credentials")
